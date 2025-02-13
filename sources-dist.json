@@ -1892,8 +1892,8 @@
     "type": "geoposition"
   },
   "oxxify-fan-control": {
-    "meta": "https://raw.githubusercontent.com/n-b-dy/ioBroker.oxxify-fan-control/master/io-package.json",
-    "icon": "https://raw.githubusercontent.com/n-b-dy/ioBroker.oxxify-fan-control/master/admin/oxxify-fan-control.png",
+    "meta": "https://raw.githubusercontent.com/N-b-dy/ioBroker.oxxify-fan-control/main/io-package.json",
+    "icon": "https://raw.githubusercontent.com/N-b-dy/ioBroker.oxxify-fan-control/main/admin/oxxify-fan-control.png",
     "type": "climate-control"
   },
   "palazzetti": {
@@ -3182,7 +3182,7 @@
   },
   "ws": {
     "meta": "https://raw.githubusercontent.com/ioBroker/ioBroker.ws/main/io-package.json",
-    "icon": "https://raw.githubusercontent.com/ioBroker/ioBroker.ws/main/admin/ws.png",
+    "icon": "https://raw.githubusercontent.com/ioBroker/ioBroker.ws/main/admin/ws.svg",
     "type": "communication"
   },
   "x-touch": {
