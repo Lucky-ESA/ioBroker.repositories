@@ -31,7 +31,7 @@ This is GitHub project for storage of latest and stable repositories.
 3. `title` in `io-package.json` (`common`) is simple short name of adapter in english. `titleLang` is object that consists short names in many languages. `Lang` ist not german `Länge`, but english `LANGuages`.
 4. Adapter needs to have a `README.md` with description, detail information and changelog. English is mandatory. Other languages are welcome. See [Example of README.md](#example-of-readme-md).
 
-   **In `README.md`, there must be a link to the device or the manufacturer's website. Devices must have a photo. Services do not require a photo but are still welcome.**
+   **In `README.md`, there must be a link to the device description or the manufacturer's website.**
 5. Adapter must have a predefined license.
 6. Please remove `www`, `widgets` and `docs` directories (`admin/tab_m.html`, `admin/custom_m.html`) if not used.
 7. Adapter needs to have at least Adapter basic testing (installing, running) using GitHub actions. More information in Forum from `apollon77` (Just take from other adapters the samples)
@@ -126,11 +126,7 @@ This is not suitable.
 
 Because of that, we ask you to give ioBroker organisation publish rights to update the npm package. We will use it only in emergency, or if the author does not react to our requests.
 
-To add the ioBroker organisation to npm packet, you must write the following after the packet is published:
-
-`npm access grant read-write iobroker:developers iobroker.<adaptername>`
-
-If the command does not work, just add `bluefox` as an owner.
+Please just add `bluefox` as an owner.
 
 `npm owner add bluefox iobroker.<adaptername>`
 
